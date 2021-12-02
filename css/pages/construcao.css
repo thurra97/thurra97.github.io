@@ -1,0 +1,48 @@
+.linha_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: .1rem solid black;
+    /* background-color: aqua; */
+}
+
+.linha_nome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: black; */
+    width: 100%;
+    /* padding-left: 1rem; */
+    font-family: 'Crimson Text', serif;
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+.coluna {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.linha_nome2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: rgb(116, 114, 114);
+    font-family: 'Crimson Text', serif;
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+}
+
+.img {
+    top: 0;
+    left: 0;
+    width: 3rem;
+    height: 3rem;
+    /* padding-right: 47rem; */
+    padding-left: 1rem;
+    padding-top: 1rem;
+    /* background-color: aqua; */
+}
